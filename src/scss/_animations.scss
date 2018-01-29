@@ -1,0 +1,33 @@
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+    0% { opacity: .25; }
+    60% { opacity: 1; }
+    100% { opacity: .25; }
+}
+
+@keyframes sliding {
+    0% {
+        width: 5%;
+        left: 0%;
+    }
+    25% {
+        width: 30%;
+        left: 35%;
+    }
+    50% {
+        width: 5%;
+        left: 95%;
+    }
+    75% {
+        width: 30%;
+        left: 35%;
+    }
+    100% {
+        width: 5%;
+        left: 0%;
+    }
+}
