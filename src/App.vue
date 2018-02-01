@@ -116,9 +116,11 @@
                 .then((propsData) => {
                     this.loadingLanguage = false;
                     for(let k in propsData) {
+                        this[k] = propsData[k];
                         this.$set(this, k, propsData[k]);
                     }
                     this.updateLanguageCookie();
+                    this.$forceUpdate();
                 });
             },
             updateLanguageCookie() {

@@ -12,3 +12,4 @@ export function createApp(propsData) {
         })
     });
 };
+

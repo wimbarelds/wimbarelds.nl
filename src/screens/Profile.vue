@@ -13,7 +13,7 @@
             <div class="traits">
                 <div class="trait" v-for="(trait, index) in traits" :key="index">
                     <img :src="trait.image" alt="">
-                    <h3 v-text="trait.title" v-once></h3>
+                    <h3 v-text="trait.title"></h3>
                 </div>
             </div>
         </div>
