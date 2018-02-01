@@ -16,4 +16,7 @@ npm run build
 
 # start server with SSR
 npm run start
+
+# prerender
+node prerender
 ```
